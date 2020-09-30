@@ -56,7 +56,7 @@ Converts the specified Unicode source string into an OEM string. The translation
 
 ### -param DestinationString [out]
 
-A pointer to an <a href="/windows/desktop/api/winternl/ns-winternl-string">OEM_STRING</a> structure that is contains the OEM equivalent to the Unicode source string. The <b>MaximumLength</b> field is set if <i>AllocateDestinationString</i> is <b>TRUE</b>.
+A pointer to an <a href="/windows/desktop/api/winternl/ns-winternl-string">OEM_STRING</a> structure that contains the OEM equivalent to the Unicode source string. The <b>MaximumLength</b> field is set if <i>AllocateDestinationString</i> is <b>TRUE</b>.
 
 ### -param SourceString [in]
 
